@@ -1,6 +1,4 @@
-# Import the necessary libraries for hashing and secure password input
 
-# Get the password from the user without echoing it to the console
 
 # Create a new hash object using a secure algorithm (e.g. SHA-256)
 
@@ -18,6 +16,11 @@
 
 # Check if the passwords match and print a success or failure message
 
+# Import the necessary libraries for hashing and secure password input
 
 import hashlib
 import getpass
+
+# Get the password from the user without echoing it to the console
+
+user_input = input("Password")
