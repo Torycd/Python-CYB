@@ -17,7 +17,7 @@ def confirm_password(password_hash, input_password):
         
 
 def main():
-    # This takes the password withut showing it on the console/terminal
+    # This takes the password without showing it on the console/terminal
     user_password = getpass.getpass("Enter your password: ")
     password_hash = hashing(user_password)
     input_password = getpass.getpass("Enter your password again: ")
