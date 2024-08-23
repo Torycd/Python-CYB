@@ -14,7 +14,7 @@ while True:
     clientsocket, address = server_socket_object.accept()
 
     print("recieved connection from %r " % str(address))
-    message = 'Thank you for connecting to the server' + '\r\n'
+    message = 'Thank you for connecting to the server, this is an example of a server' + '\r\n'
 
     clientsocket.send(message.encode('ascii'))
 
