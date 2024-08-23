@@ -1,4 +1,3 @@
-
 import hashlib
 import getpass
 
@@ -23,6 +22,7 @@ def main():
     input_password = getpass.getpass("Enter your password again: ")
     if confirm_password(password_hash, input_password):
         print("Password is Correct")
+        print(password_hash)
     else:
         print("Password is Not Correct!")
 

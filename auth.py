@@ -9,3 +9,8 @@
 #         - Hash input password
 #         - Compare hashed input password with stored hash in database
 #         - Authenticate user if matches, otherwise reject
+
+def Registration():
+    username = input("Input username: ")
+    password = input("Input password: ")
+    email = input("Input email address: ")
