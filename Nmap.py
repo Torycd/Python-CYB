@@ -3,7 +3,7 @@ import nmap
 scanner =  nmap.PortScanner()
 
 print('welcome, This is a simple nmap automation tool')
-print("<---------------------------------------------------->")
+print("<---------------------------------------------------------->")
 
 ip_address = input("Please enter the IP address you want to scan: ")
 print("The Ip you entered is", ip_address)
@@ -14,6 +14,7 @@ resp = input("""\nplease neter the type of scam you want to run
                 2)USP Scan
                 3)Comprehensive scan \n""")
 print('you have selected option: ', resp)
+
 
 if resp == '1':
     print('Nmap version: ', scanner.nmap_version())
